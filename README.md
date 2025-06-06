@@ -13,7 +13,7 @@ I built this to save time, reduce mistakes, and make assignment submissions feel
 - Leaves the browser open for visual confirmation
 - Prints a clear submission receipt in the terminal with timestamp and file info
 
-### All in less than 3 seconds!
+**All in less than 3 seconds!**
 
 ## Setup
 
