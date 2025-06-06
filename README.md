@@ -4,7 +4,7 @@ This tool automates the process of submitting assignments to Gradescope via the 
 
 I built this script to save time, reduce mistakes, and make assignment submissions feel as smooth as pushing to a Git repo and never leave my IDE. It’s especially useful when working on frequent tutorials, labs, or auto-graded assignments that require consistent resubmissions (could also just be a skill issue).
 
-*Currently this script is only working with assignments that have an existing submission
+*Currently this script is only working with assignments that have a previous existing submission on Gradescope.*
 ## What It Does
 
 - Bundles your project files into a zip archive
