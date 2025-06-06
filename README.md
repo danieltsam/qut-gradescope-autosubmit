@@ -25,11 +25,11 @@ pip install playwright
 playwright install
 ```
 
-### 2. Clone or Download This Repo
+### 2. Download This Repo and copy `gradescope.py` and `gradescope.json`
 
-Place the script and your project in the same directory.
+Download this repo and then grab `gradescope.py` and `gradescope.json` and paste it into the root directory where everything you want to submit exists.
 
-### 3. Create `gradescope.json`
+### 3. Create/Modify `gradescope.json`
 
 This file stores your config:
 
@@ -43,9 +43,12 @@ This file stores your config:
   "password": "yourQUTpassword"
 }
 ```
-- as long as the string in `course` or `assignment` is a substring within the actual title e.g. '**CAB202**_25se1' or 'CAB202 **Tutorial 08**', the script will find and select that element.
-- You can use `*` to zip all files, or filter by extensions like `*.c`, `*.py`, etc.
-- `file` is the name of the zip that will be created.
+Adjust the json file to match: 
+- the titles that you see in Gradescope for Courses and Assignments (as long as the string in `course` or `assignment` is a substring within the actual title e.g. '**CAB202**_25se1' or 'CAB202 **Tutorial 08**', the script will find and select that element.)
+- the name of the zip file you want to export and upload
+- what you want to include in the zip (You can use `*` to zip all files, or filter by extensions like `*.c`, `*.py`, etc.)
+- your QUT SSO credentials
+
 
 ### ⚠️ Warning: Plaintext Passwords
 This script reads your QUT password directly from `gradescope.json`, which is stored in plaintext. Use at your own risk. Do **not** upload your config file to GitHub unless you remove your credentials.
@@ -55,7 +58,7 @@ This script reads your QUT password directly from `gradescope.json`, which is st
 Your working directory should look like this:
 
 ```
-your-folder/
+your-dir/
 ├── gradescope.py
 ├── gradescope.json
 ├── the rest of your actual submission files and directories
