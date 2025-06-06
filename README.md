@@ -25,7 +25,7 @@ pip install playwright
 playwright install
 ```
 
-### 2. Download This Repo and copy `gradescope.py` and `gradescope.json`
+### 2. Download This Repo and copy files
 
 Download this repo and then grab `gradescope.py` and `gradescope.json` and paste it into the root directory where everything you want to submit exists.
 
