@@ -42,7 +42,7 @@ This file stores your config:
   "password": "yourQUTpassword"
 }
 ```
-
+- as long as the string in `course` or `assignment` is a substring within the actual title e.g. '**CAB202**_25se1' or 'CAB202 **Tutorial 08**', the script will find and select that element.
 - You can use `*` to zip all files, or filter by extensions like `*.c`, `*.py`, etc.
 - `file` is the name of the zip that will be created.
 
